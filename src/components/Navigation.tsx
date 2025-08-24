@@ -20,7 +20,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h2 className="text-2xl font-serif font-bold text-henna-primary">
-              Golden Henna
+              G•Henna Studios
             </h2>
           </div>
 
