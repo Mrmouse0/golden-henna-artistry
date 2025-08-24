@@ -17,7 +17,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 animate-fade-in-up">
-          G•Henna Studios
+          Golden Henna Artistry
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 font-light animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           Exquisite henna designs for your most precious moments
