@@ -136,28 +136,6 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="shadow-soft border-henna-primary/10">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-serif font-semibold text-henna-primary mb-4 flex items-center">
-                  <Clock className="w-5 h-5 text-henna-gold mr-2" />
-                  Business Hours
-                </h3>
-                <div className="space-y-2 text-sm">
-                  <div className="flex justify-between">
-                    <span className="text-henna-primary">Monday - Friday</span>
-                    <span className="text-henna-primary/70">10:00 AM - 7:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-henna-primary">Saturday</span>
-                    <span className="text-henna-primary/70">9:00 AM - 8:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-henna-primary">Sunday</span>
-                    <span className="text-henna-primary/70">12:00 PM - 6:00 PM</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
 
             <Card className="shadow-soft border-henna-primary/10 bg-gradient-subtle">
               <CardContent className="p-6">
