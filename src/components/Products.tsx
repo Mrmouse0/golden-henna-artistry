@@ -77,6 +77,12 @@ const Products = () => {
                 </div>
                 
                 <div className="border-t border-henna-primary/10 pt-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <div>
+                      <div className="text-2xl font-bold text-henna-primary">{product.price}</div>
+                      <div className="text-sm text-henna-primary/60">{product.unit}</div>
+                    </div>
+                  </div>
                   
                   <Button variant="gold" className="w-full">
                     <ShoppingCart className="w-4 h-4 mr-2" />
