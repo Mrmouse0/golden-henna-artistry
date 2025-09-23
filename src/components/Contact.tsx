@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock, Calendar, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -89,10 +90,12 @@ const Contact = () => {
                 />
               </div>
               
-              <Button variant="henna" className="w-full">
-                <Calendar className="w-4 h-4 mr-2" />
-                Book Appointment
-              </Button>
+              <Link to="/details">
+                <Button variant="henna" className="w-full">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  Book Appointment
+                </Button>
+              </Link>
             </CardContent>
           </Card>
 
